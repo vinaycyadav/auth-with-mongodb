@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+source 'http://gems.github.com'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -36,3 +37,6 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'mongoid', github: "mongoid/mongoid"
+gem 'bson_ext'
+gem 'devise'
